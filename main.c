@@ -26,7 +26,7 @@ int main() {
 			 printf("\nThanks for playing! Goodbye.\n");
 			 break;
 			default:
-			 printf("\nInvalid choice! Please choose between 1 and 3.\n");
+			 printf("\nInvalid choice! Please choose between 1 and 5.\n");
              printf("Press any key to continue...");
              getch();
 			 break;
