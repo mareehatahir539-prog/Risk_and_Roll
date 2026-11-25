@@ -133,7 +133,7 @@ void startGame() {
 			updatePlayerProfile(playersName[playerTurn],playerScore[playerTurn],1);
 			//For loser
 			int loserTurn = switchTurn(playerTurn);
-			updatePlayerProfile(playersName[playerTurn],playerScore[playerTurn],0);
+			updatePlayerProfile(playersName[loserTurn],playerScore[loserTurn],0);
 
 
 			printf("\nPress any key to return to the main menu...");
