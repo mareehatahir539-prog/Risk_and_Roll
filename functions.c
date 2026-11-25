@@ -71,7 +71,7 @@ void printDice(int roll) {
         printf("|   O   |\n");
         printf("| O   O |\n");
         printf("+-------+\033[0m\n");
-	} else if (roll = 6) {
+	} else if (roll == 6) {
 		printf("\033[1;37m+-------+\n");
         printf("| O   O |\n");
         printf("| O   O |\n");
