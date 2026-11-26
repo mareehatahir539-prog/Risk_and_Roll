@@ -287,9 +287,9 @@ void viewPlayerProfile(){
     }
     fclose(file);
 
+ }
+ 
     printf("\n========================================\n");
     printf("Press any key to return to the main menu...");
     getch();
- }
-
 }
